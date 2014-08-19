@@ -18,7 +18,7 @@ class DspaceSimpleArchiveExport {
    * @param string $import_path
    *   The absolute path to the DSpace simple archive format export
    */
-  protected function __construct($import_path) {
+  public function __construct($import_path) {
     $this->importPath = $import_path;
   }
 }
