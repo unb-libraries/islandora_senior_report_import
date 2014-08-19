@@ -16,6 +16,6 @@ class IslandoraSeniorReport {
    * Constructs an IslandoraSeniorReport object.
    */
   public function __construct() {
-    // Pass
+    // Pass.
   }
 }

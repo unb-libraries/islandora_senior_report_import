@@ -13,5 +13,5 @@
  * object.
  */
 class DspaceSimpleArchiveExportSeniorReport extends DspaceSimpleArchiveExport {
-  // Extensions
+  // Extensions.
 }

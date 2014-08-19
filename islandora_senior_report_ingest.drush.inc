@@ -74,7 +74,7 @@ function islandora_senior_report_ingest_drush_command() {
  *
  * @ingroup callbacks
  */
-function drush_islandora_senior_report_ingest_islandora_ingest_senior_reports($import_path, $parent_pid, $base_namespace, $title_string, $fedora_url, $fedora_user, $fedora_password) {
+function drush_islandora_senior_report_ingest_islandora_ingest_senior_reports($import_path, $parent_pid, $base_namespace, $fedora_url, $fedora_user, $fedora_password) {
   _islandora_senior_report_ingest_bootstrap_drupal();
   $import = new DspaceSimpleArchiveExportSeniorReport($import_path);
 }
